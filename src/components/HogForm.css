@@ -1,0 +1,13 @@
+.form-column {
+  display: flex;
+  flex-direction: column; /* Aligns elements in a column */
+  gap: 10px; /* Adds space between each element */
+  width: 100%;
+  text-align: center;
+}
+
+.form-column input,
+.form-column label,
+.form-column button {
+  width: 50%; /* Optional: makes inputs and button fill the container's width */
+}
